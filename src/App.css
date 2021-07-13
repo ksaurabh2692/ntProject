@@ -1,0 +1,105 @@
+.app {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.flex--Container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex--Buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.app--prevButton {
+  margin-left: 10px;
+  border: none;
+  background-color: #039600;
+  color: white;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  cursor: pointer;
+}
+:hover.app--prevButton {
+  opacity: 0.7;
+}
+:hover.app--nextButton {
+  opacity: 0.7;
+}
+
+.app--nextButton {
+  margin-right: 10px;
+  border: none;
+  background-color: #039600;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .flex--Buttons {
+    margin-top: 10px;
+  }
+  .app--prevButton {
+    margin-left: 20px;
+  }
+
+  .app--nextButton {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .app--prevButton {
+    margin-left: 25px;
+    font-size: medium;
+  }
+
+  .app--nextButton {
+    margin-right: 25px;
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .app--prevButton {
+    margin-left: 35px;
+    font-size: large;
+  }
+
+  .app--nextButton {
+    margin-right: 35px;
+    font-size: large;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .app--prevButton {
+    margin-left: 48px;
+    font-size: large;
+  }
+
+  .app--nextButton {
+    margin-right: 48px;
+    font-size: large;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .flex--Buttons {
+    margin-top: 20px;
+  }
+  .app--prevButton {
+    margin-left: 65px;
+    font-size: xx-large;
+    padding: 1rem;
+  }
+
+  .app--nextButton {
+    margin-right: 65px;
+    font-size: xx-large;
+    padding: 1rem;
+  }
+}
